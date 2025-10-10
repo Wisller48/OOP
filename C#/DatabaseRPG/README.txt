@@ -1,10 +1,3 @@
-######################################
-
-Aluno: Brayan Wisller Pontes Teófilo
-RA: 22303778
-
-############################################
-
 **Para a execução desse projeto em C# é necessário que tenha instalado os seguintes programas e bibliotecas (para a execução no VS Code):**
 - C# e .NET 9;
 - C# Dev Kit;
@@ -133,4 +126,5 @@ A URL base é `http://localhost:5099`.
 ### **Remover um item**
 -   **Endpoint:** `DELETE /api/v1/items/{id}`
 -   **Resposta de Sucesso (204 No Content):** Nenhuma resposta no corpo.
+
 -   **Resposta de Erro (404 Not Found):** `{"message": "Item não encontrado para exclusão."}`
