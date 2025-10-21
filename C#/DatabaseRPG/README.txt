@@ -64,8 +64,8 @@ A URL base é `http://localhost:5099`.
         "id": 1,
         "name": "Poção de Cura",
         "rarity": "Comum",
-        "price": 100.00,
-        "createdAt": "2025-10-27T10:00:00Z"
+        "preco": 100.00,
+        "CriadoEm": "2025-10-27T10:00:00Z"
       }
     ]
     ```
@@ -80,8 +80,8 @@ A URL base é `http://localhost:5099`.
       "id": 1,
       "name": "Poção de Cura",
       "rarity": "Comum",
-      "price": 100.00,
-      "createdAt": "2025-10-27T10:00:00Z"
+      "preco": 100.00,
+      "CriadoEm": "2025-10-27T10:00:00Z"
     }
     ```
 -   **Resposta de Erro (404 Not Found):** `{"message": "Item não encontrado."}`
@@ -95,7 +95,7 @@ A URL base é `http://localhost:5099`.
     {
       "name": "Espada Longa de Aço",
       "rarity": "Incomum",
-      "price": 250.00
+      "preco": 250.00
     }
     ```
 -   **Resposta de Sucesso (201 Created):** Retorna o item recém-criado.
@@ -112,7 +112,7 @@ A URL base é `http://localhost:5099`.
     {
       "name": "Espada Longa de Aço +1",
       "rarity": "Raro",
-      "price": 500.00
+      "preco": 500.00
     }
     ```
 -   **Resposta de Sucesso (204 No Content):** Nenhuma resposta no corpo.
@@ -128,3 +128,4 @@ A URL base é `http://localhost:5099`.
 -   **Resposta de Sucesso (204 No Content):** Nenhuma resposta no corpo.
 
 -   **Resposta de Erro (404 Not Found):** `{"message": "Item não encontrado para exclusão."}`
+
